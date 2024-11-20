@@ -666,7 +666,7 @@ svg{
 }
 .sec4__bottom{
 	width: 100%;
-	max-width: 93.5em;
+	max-width: 81em;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -4040,5 +4040,10 @@ svg{
 	}
 }
 
-
+.dark_bg {
+	background: #000;
+}
+.dark_bg * {
+	color: #fff !important;
+}
 
